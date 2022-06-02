@@ -72,7 +72,8 @@ font-size: 1.3em;
   border-radius: 15px;
   border: none;
   background-color: #fff;
-  margin: 20px;   
+  margin: 20px;  
+  box-shadow: 0 4px 4px rgba(32, 12, 12, 0.25); 
 }
 
 /*Details*/

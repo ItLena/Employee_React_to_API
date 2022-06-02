@@ -28,13 +28,13 @@ export default function EmployeeList(){
         setFilteredPersons((filteredPersons) => filteredPersons.slice().sort((a, b) =>a.employee_age > b.employee_age? 1:-1));
     }
     const onSortDescAge = (e) =>{
-        setFilteredPersons([...filteredPersons].slice().sort((a, b) =>a.employee_age < b.employee_age? 1:-1));
+        setFilteredPersons([...filteredPersons].sort((a, b) =>a.employee_age < b.employee_age? 1:-1));
     }
     const onSortAscSalary = (e) =>{
-        setFilteredPersons([...filteredPersons].slice().sort((a, b) =>a.employee_salary > b.employee_salary? 1:-1));
+        setFilteredPersons([...filteredPersons].sort((a, b) =>a.employee_salary > b.employee_salary? 1:-1));
     }
     const onSortDescSalary = (e) =>{
-        setFilteredPersons([...filteredPersons].slice().sort((a, b) =>a.employee_salary < b.employee_salary? 1:-1));
+        setFilteredPersons([...filteredPersons].sort((a, b) =>a.employee_salary < b.employee_salary? 1:-1));
     }
 
 
